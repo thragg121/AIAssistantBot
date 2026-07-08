@@ -1,3 +1,8 @@
+![Python](https://img.shields.io/badge/Python-3.13-blue)
+![aiogram](https://img.shields.io/badge/aiogram-3.x-blue)
+![SQLite](https://img.shields.io/badge/SQLite-Database-green)
+![Status](https://img.shields.io/badge/Status-Portfolio-success)
+
 # AI Assistant Telegram Bot
 
 Portfolio-ready Telegram bot built with Python, aiogram and SQLite.
