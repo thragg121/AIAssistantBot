@@ -2,6 +2,7 @@ from config import SYSTEM_PROMPT
 
 from app.database.messages import save_message, get_last_messages, clear_messages
 from app.database.users import get_ai_mode, set_ai_mode, increment_ai_messages_count
+from app.ui import emojis
 
 
 def enable_ai_mode(user_id: int):
@@ -41,7 +42,8 @@ def build_ai_context(user_id: int):
 
 def generate_ai_answer(context: list[dict]) -> str:
     return (
-        "🤖 Тестовый AI-ответ.\n\n"
+        f"{emojis.ROBOT} <b>AI ответ</b>\n\n"
+        "Это тестовый ответ.\n"
         "Настоящий OpenAI подключим позже."
     )
 

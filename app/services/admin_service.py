@@ -1,13 +1,15 @@
 from app.database.users import get_all_users, get_users_count
+from app.ui import emojis
+from app.ui.messages import title
 
 
 def get_admin_panel_text() -> str:
     users_count = get_users_count()
 
     return (
-        "🛠 <b>Админ-панель</b>\n\n"
-        f"👥 Пользователей: {users_count}\n\n"
-        "Команды:\n"
+        f"{title(emojis.ADMIN, 'Админ-панель')}\n\n"
+        f"{emojis.USERS} Пользователей: <b>{users_count}</b>\n\n"
+        "<b>Команды:</b>\n"
         "/users — список пользователей\n"
         "/broadcast текст — рассылка"
     )
@@ -19,10 +21,14 @@ def get_users_list_text() -> str:
     if not users:
         return "Пользователей пока нет."
 
-    text = "👥 <b>Пользователи</b>\n\n"
+    text = f"{title(emojis.USERS, 'Пользователи')}\n\n"
 
     for user_id, first_name, username in users:
         username = username if username else "не указан"
-        text += f"ID: {user_id}\nИмя: {first_name}\nUsername: @{username}\n\n"
+        text += (
+            f"{emojis.ID} ID: <code>{user_id}</code>\n"
+            f"{emojis.PROFILE} Имя: {first_name}\n"
+            f"📛 Username: @{username}\n\n"
+        )
 
     return text
