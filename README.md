@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="assets/banner.png" alt="AI Assistant Telegram Bot">
+</p>
+
 ![Python](https://img.shields.io/badge/Python-3.13-blue)
 ![aiogram](https://img.shields.io/badge/aiogram-3.x-blue)
 ![SQLite](https://img.shields.io/badge/SQLite-Database-green)
