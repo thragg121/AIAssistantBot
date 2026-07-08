@@ -5,23 +5,24 @@
 
 # AI Assistant Telegram Bot
 
-Portfolio-ready Telegram bot built with Python, aiogram and SQLite.
+Modern Telegram AI Assistant built with **Python**, **aiogram** and **SQLite**.
+
+Designed as a portfolio-ready project demonstrating clean architecture, service-based design and scalable Telegram bot development.
 
 ## Features
 
-- AI chat mode
-- User registration
-- User profile
-- Message history
-- Clear AI history
-- Free AI message limit
-- Settings menu
-- Admin panel
-- User list
-- Broadcast messages
-- SQLite database
-- Environment variables via `.env`
-- Clean project architecture
+## ✨ Highlights
+
+- 🤖 AI Chat Mode
+- 👤 User Profiles
+- 💬 Message History
+- 🧹 Chat History Cleanup
+- ⚙️ Settings System
+- 🛠 Admin Panel
+- 📢 Broadcast Messages
+- 🗄 SQLite Database
+- 🔒 Environment Variables
+- 📦 Clean Architecture
 
 ## Tech Stack
 
