@@ -31,7 +31,14 @@ Designed as a portfolio-ready project demonstrating clean architecture, service-
 ## 📸 Screenshots
 
 <p align="center">
-  <img src="screenshots/01-main-menu.png" width="320" alt="Main Menu">
+  <img src="screenshots/01-main-menu.png" width="260" alt="Main Menu">
+  <img src="screenshots/02-profile.png" width="260" alt="Profile">
+  <img src="screenshots/03-ai-chat.png" width="260" alt="AI Chat">
+</p>
+
+<p align="center">
+  <img src="screenshots/04-settings.png" width="260" alt="Settings">
+  <img src="screenshots/05-admin-panel.png" width="260" alt="Admin Panel">
 </p>
 
 ## Tech Stack
