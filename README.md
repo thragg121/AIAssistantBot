@@ -28,6 +28,12 @@ Designed as a portfolio-ready project demonstrating clean architecture, service-
 - 🔒 Environment Variables
 - 📦 Clean Architecture
 
+## 📸 Screenshots
+
+<p align="center">
+  <img src="screenshots/01-main-menu.png" width="320" alt="Main Menu">
+</p>
+
 ## Tech Stack
 
 - Python
