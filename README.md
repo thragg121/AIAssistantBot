@@ -101,3 +101,9 @@ python main.py
 
 OpenAI integration is prepared in the architecture.  
 By default, the bot uses a test AI response until an API key and billing are configured.
+
+---
+
+## 📄 License
+
+This project is licensed under the **MIT License**.
