@@ -13,8 +13,6 @@ Modern Telegram AI Assistant built with **Python**, **aiogram** and **SQLite**.
 
 Designed as a portfolio-ready project demonstrating clean architecture, service-based design and scalable Telegram bot development.
 
-## Features
-
 ## ✨ Highlights
 
 - 🤖 AI Chat Mode
